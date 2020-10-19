@@ -1,0 +1,1 @@
+web: gunicorn Guruguru.wsgi --log-file -
