@@ -1,1 +1,1 @@
-web: gunicorn Guruguru.wsgi --log-file -
+web: gunicorn rianxfabelio.wsgi --log-file -
