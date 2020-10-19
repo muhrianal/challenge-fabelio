@@ -25,7 +25,7 @@ SECRET_KEY = 'ub_=xfwo_baqi+2d83^#w1=bbp8&)(y$m!c@18ttio6!7te^+8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rianxfabelio.herokuapp.com']
+ALLOWED_HOSTS = ['rianxfabelio.herokuapp.com','localhost']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'rianxfabelio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'ddi51l93ft8dd2', 
+        'USER': 'nalpydrtjwmfvd', 
+        'PASSWORD': '1710594a30f8b38199d91a7238125165e7e49c586428a3b68bee32da55b7b739',
+        'HOST': 'ec2-54-235-192-146.compute-1.amazonaws.com', 
+        'PORT': '5432',
     }
 }
 
