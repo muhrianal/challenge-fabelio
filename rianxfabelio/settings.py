@@ -25,7 +25,7 @@ SECRET_KEY = 'ub_=xfwo_baqi+2d83^#w1=bbp8&)(y$m!c@18ttio6!7te^+8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rianxfabelio.herokuapp.com']
 
 
 # Application definition
